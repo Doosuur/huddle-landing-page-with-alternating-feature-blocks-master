@@ -1,0 +1,198 @@
+h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+h4{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%)
+}
+
+li{
+    line-height: 3rem;
+}
+
+
+/*Build The Community Section*/
+
+#topSection{
+    background-image: url(../images/bg-hero-desktop.svg);
+    width: 90%;
+    background-color:hsl(193, 100%, 96%);
+    margin: 0 5% 10%;
+}
+
+.Community{
+    padding: 0% 3% 5%;
+}
+
+.navbar{
+    padding: 5% 3% 0; 
+}
+
+.community-text{
+    padding-bottom: 5%; 
+}
+
+.mockups-img{
+    width: 90%;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+}
+
+.col-md-5{
+    margin-bottom: 10%;
+}
+
+/*Buttons*/
+
+.btn-light{
+    background: white;
+    border-radius: 60px;
+    width: 20%;
+    font-size: 0.8rem;
+}
+
+.btn-lg{
+    background: hsl(322, 100%, 66%);
+    border-radius: 60px;
+    box-shadow: 1px 1px 20px 0px #B2B0B0;
+    color: white;
+    width: 70%;
+    text-align: center; 
+    font-size: 0.8rem;
+
+}
+
+/*Blocks*/
+
+.blocks{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 0px #B2B0B0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5% ;
+    text-align: left;
+}
+
+/*Grow Together/Users Section*/
+
+.right-img{
+    width: 30%;
+    margin: 5% 2% 5% 10% ;
+    float: right;
+
+}
+.block-text{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.section-text{
+    margin:12% 5% 0;
+    padding-right: 40%;
+
+}
+
+/*Flowing Conversations Section*/
+
+.left-img{
+    width: 30%;
+    margin: 5% 10% 5% 5%;
+    float: left;
+}
+
+.Flowing-text{
+    margin: 12% 2% 5% 10% ;
+    padding-left: 40%;
+}
+
+/*Footer*/
+#footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.row{
+    margin: 5%;
+    padding-top: 10%;
+}
+
+
+.ready-class{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    position: relative;
+    z-index: 1;
+    left: 27%;
+    top: 100px;
+    box-shadow: 0 -4px 15px -9px;
+}
+
+.Ready-btn{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.Location{
+    line-height: 1rem;
+    padding-top: 5%;
+}
+
+.contact-img{
+    padding-right: 5%;
+}
+
+.Copyright{
+    margin-left: 70%;
+}
+
+.social-media{
+    padding: 5% 3%;
+}
+
+
+/*@media (max-width): 1440px;*/
+
+@media (max-width: 800px) {
+    
+    #topSection{
+        text-align: center;
+    }
+    
+    .btn-lg{ 
+        margin:0 15%;
+    }
+    
+    .block-text{
+        text-align: center;
+    }
+    
+    .blocks{
+        text-align: center;
+        margin: auto;
+    }
+    .social-media{
+        margin: auto;
+    }
+    
+    .section-text{
+        
+    }
+
+}
